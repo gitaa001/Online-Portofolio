@@ -4,6 +4,7 @@ import NavBar from '../components/nav-bar'
 import GtKM from '../components/gtkm-scroll'
 import Image from 'next/image'
 import { TypeAnimation } from 'react-type-animation'
+import Values from '@/components/values'
 
 const Page = () => {
   return (
@@ -96,19 +97,29 @@ const Page = () => {
 
       {/* Section Title */}
       <div className="flex justify-center mt-25">
-        <h2 className="text-white text-6xl font-semibold text-center">
+        <h1 className="text-white text-[50px] font-medium text-center">
           Get to Know Me
-        </h2>
+        </h1>
       </div>
 
-      {/* Scrollable Horizontal Section */}
+      {/* Scrollable MBTI */}
       <div className="flex justify-center mt-5 ml-20">
         <GtKM />
       </div>
 
-      <div className="flex justify-center mt-50 ml-20">
+      {/* Values */}
+      <h1 className='flex justify-center mt-50 text-6xl font-semibold'>
+          Core Values
+      </h1>
 
+      <h3 className="flex justify-center mt-1 text-[#D4FFA9] text-l italic">
+          as my strong characteristics
+      </h3>
+
+      <div className='flex justify-center mt-10'>
+        <Values />
       </div>
+
     </div>
   )
 }
