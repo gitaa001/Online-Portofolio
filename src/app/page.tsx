@@ -1,6 +1,7 @@
 'use client'
 
 import NavBar from '../components/nav-bar'
+import GtKM from '../components/gtkm-scroll'
 import Image from 'next/image'
 import { TypeAnimation } from 'react-type-animation'
 
@@ -8,8 +9,10 @@ const Page = () => {
   return (
     <div className="mt-8 text-white px-8">
       {/* Navbar */}
-      <div className="flex justify-center mb-10">
-        <NavBar />
+      <div className="sticky top-4 z-50 backdrop-blur-md">
+        <div className="flex justify-center mb-10">
+          <NavBar />
+        </div>
       </div>
 
       {/* Main Intro */}
@@ -43,15 +46,37 @@ const Page = () => {
           {/* Socmed icons */}
           <div className="flex items-center gap-5 mt-6">
             <a href="https://linkedin.com" target="_blank">
-              <Image src="/general/linkedin.png" alt="LinkedIn" width={24} height={24} className="hover:brightness-125 transition" />
+              <Image
+                src="/general/linkedin.png"
+                alt="LinkedIn"
+                width={24}
+                height={24}
+                className="hover:brightness-125 transition"
+              />
             </a>
             <a href="https://instagram.com" target="_blank">
-              <Image src="/general/instagram.png" alt="Instagram" width={24} height={24} className="hover:brightness-125 transition" />
+              <Image
+                src="/general/instagram.png"
+                alt="Instagram"
+                width={24}
+                height={24}
+                className="hover:brightness-125 transition"
+              />
             </a>
             <a href="https://github.com" target="_blank">
-              <Image src="/general/github.png" alt="GitHub" width={24} height={24} className="hover:brightness-125 transition" />
+              <Image
+                src="/general/github.png"
+                alt="GitHub"
+                width={24}
+                height={24}
+                className="hover:brightness-125 transition"
+              />
             </a>
-            <a href="https://medium.com" target="_blank" className="flex items-center gap-2 hover:brightness-125 transition">
+            <a
+              href="https://medium.com"
+              target="_blank"
+              className="flex items-center gap-2 hover:brightness-125 transition"
+            >
               <Image src="/general/medium.png" alt="Medium" width={100} height={100} />
             </a>
           </div>
@@ -70,42 +95,19 @@ const Page = () => {
       </div>
 
       {/* Section Title */}
-      <div className="flex justify-center mt-30">
-        <h2 className="text-white text-6xl font-semibold text-center">Get to Know Me</h2>
+      <div className="flex justify-center mt-25">
+        <h2 className="text-white text-6xl font-semibold text-center">
+          Get to Know Me
+        </h2>
       </div>
 
-      {/* MBTI Container */}
-      <div className="flex justify-center mt-10 px-4">
-        <div className="w-[1159px] h-[300px] bg-[rgba(80,80,80,0.25)] rounded-[30px] shadow-lg p-10 flex gap-10">
-          
-          {/* MBTI Image */}
-          <div className="flex items-center">
-            <Image
-              src="/general/mbti.png"
-              alt="MBTI Character"
-              width={210}
-              height={352}
-              className="flex-shrink-0"
-            />
-          </div>
+      {/* Scrollable Horizontal Section */}
+      <div className="flex justify-center mt-5 ml-20">
+        <GtKM />
+      </div>
 
-          {/* MBTI Info */}
-          <div className="text-[#D4FFA9]">
-            <h2 className="text-4xl font-semibold text-white">INFP - A</h2>
-            <p className="italic mb-6">Mediator</p>
+      <div className="flex justify-center mt-50 ml-20">
 
-            {/* Progress Bars */}
-            <div className="flex items-center">
-            <Image
-              src="/general/bar.png"
-              alt="MBTI Character"
-              width={300}
-              height={250}
-              className="flex-shrink-0"
-            />
-          </div>
-          </div>
-        </div>
       </div>
     </div>
   )
