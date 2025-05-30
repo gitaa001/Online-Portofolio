@@ -121,7 +121,7 @@ const Page = () => {
       </div>
 
       <h3 className="flex justify-center mt-5 text-[#D4FFA9] text-l italic">
-          My friends said I'm...
+          My friends said I&apos;m...
       </h3>
 
       <div className="flex flex-wrap justify-center gap-4">

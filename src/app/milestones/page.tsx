@@ -1,7 +1,6 @@
 'use client'
 
 import NavBar from '@/components/nav-bar'
-import Image from 'next/image'
 
 const Page = () => {
   return (
