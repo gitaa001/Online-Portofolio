@@ -2,6 +2,8 @@
 
 import NavBar from '../components/nav-bar'
 import GtKM from '../components/gtkm-scroll'
+import TraitTag from '../components/trait-tag'
+import FAQ from '../components/faq'
 import Image from 'next/image'
 import { TypeAnimation } from 'react-type-animation'
 import Values from '@/components/values'
@@ -96,11 +98,9 @@ const Page = () => {
       </div>
 
       {/* Section Title */}
-      <div className="flex justify-center mt-25">
-        <h1 className="text-white text-[50px] font-medium text-center">
-          Get to Know Me
-        </h1>
-      </div>
+      <h1 className="flex-justify-center mt-25 text-white text-[50px] font-medium text-center">
+        Get to Know Me
+      </h1>
 
       {/* Scrollable MBTI */}
       <div className="flex justify-center mt-5 ml-20">
@@ -120,6 +120,20 @@ const Page = () => {
         <Values />
       </div>
 
+      <h3 className="flex justify-center mt-5 text-[#D4FFA9] text-l italic">
+          My friends said I'm...
+      </h3>
+
+      <div className="flex flex-wrap justify-center gap-4">
+        <TraitTag />
+      </div>
+
+      <div className='mt-10 pb-22'>
+        <FAQ/>
+      </div>
+
+
+    
     </div>
   )
 }
