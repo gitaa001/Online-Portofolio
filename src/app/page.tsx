@@ -37,7 +37,7 @@ const Page = () => {
           </p>
 
           <p className="mt-4 text-base text-gray-200 leading-relaxed">
-            Usually known as <strong className="text-white">Gita</strong>. I’m a tech enthusiast with a heart for arts,
+            Usually known as <strong className="text-white">Gita</strong>. I&apos;m a tech enthusiast with a heart for arts,
             currently studying <span className="text-[#D4FFA9] font-medium">Information System and Technology</span> at Institut Teknologi Bandung.
           </p>
 

@@ -38,7 +38,7 @@ const NavBar = () => {
         </Link>
       </div>
       <div className="bg-[#D4FFA9] text-black mr-8 px-8 py-2 rounded-full">
-        Git's Portfolio
+        Git&apos;s Portfolio
       </div>
     </div>
   )
