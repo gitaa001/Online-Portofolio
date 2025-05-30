@@ -53,20 +53,20 @@ const faqs = [
   {
     title: 'AI Regulation',
     body1:
-      'Recent Issue I&apos;m Interested In: AI opens up new possibilities, but also raises concerns about originality, authorship, and ethical boundaries—especially for artists.',
+      "Recent Issue I'm Interested In: AI opens up new possibilities, but also raises concerns about originality, authorship, and ethical boundaries—especially for artists.",
     semititle: 'Mission',
     body2:
-      'I&apos;ve always been into both tech and art, and I&apos;ve been thinking a lot about how to connect the two. With all the buzz around generative AI lately, there&apos;s been a lot of tension between the tech crowd and artists (they often see things really differently). Since I get where both sides are coming from, I&apos;d love to be part of finding a middle ground. I want to help shape fair, thoughtful boundaries for how AI is used in creative work, so it becomes something that supports artists, not overshadows them.',
+      "I've always been into both tech and art, and I've been thinking a lot about how to connect the two. With all the buzz around generative AI lately, there's been a lot of tension between the tech crowd and artists (they often see things really differently). Since I get where both sides are coming from, I'd love to be part of finding a middle ground. I want to help shape fair, thoughtful boundaries for how AI is used in creative work, so it becomes something that supports artists, not overshadows them.",
     imageSrc: "/general/ai.png",
     alt: 'AI and Art'
   },
   {
     title: 'Education',
     body1:
-      'Lately, I&apos;ve been really into watching BBC, CNBC, Tempo, Narasi—basically anything that talks about what&apos;s going on in Indonesia. There&apos;s one topic I never skip: education. Since junior high school, I&apos;ve always studied in different cities or districts, and of course I understand how unequal education can be. The quality just isn&apos;t the same everywhere. And honestly, sometimes it feels more like a privilege. I&apos;ve even visited some schools to talk about how important education is. But sadly, many students told me they couldn&apos;t imagine going to a good university. It&apos;s too far, and it costs too much.',
+      "Lately, I've been really into watching BBC, CNBC, Tempo, Narasi—basically anything that talks about what's going on in Indonesia. There's one topic I never skip: education. Since junior high school, I've always studied in different cities or districts, and of course I understand how unequal education can be. The quality just isn't the same everywhere. And honestly, sometimes it feels more like a privilege. I've even visited some schools to talk about how important education is. But sadly, many students told me they couldn't imagine going to a good university. It's too far, and it costs too much.",
     semititle: 'Mission',
     body2:
-      'That&apos;s why this issue really gets my attention. My personal mission is to be part of the change. I want to help make education feel more reachable, more fair, for everyone. Maybe I&apos;ll start by joining social activity, teaching children and doing what I can to share what I&apos;ve learned. There are some communities around me.',
+      "That's why this issue really gets my attention. My personal mission is to be part of the change. I want to help make education feel more reachable, more fair, for everyone. Maybe I'll start by joining social activity, teaching children and doing what I can to share what I've learned. There are some communities around me.",
     imageSrc: '/general/education.png',
     alt: 'Equal Education'
   }
