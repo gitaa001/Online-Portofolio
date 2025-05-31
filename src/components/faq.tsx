@@ -21,7 +21,7 @@ const FAQItem = ({ title, body1, semititle, body2, imageSrc, alt }: FAQItemProps
         className="flex w-full items-center justify-between text-left"
         onClick={() => setIsOpen(!isOpen)}
       >
-        <span className="text-2xl font-regular text-white">{title}</span>
+        <span className="text-2xl font-semibold text-[#D4FFA9]">{title}</span>
         <ChevronDown
           className={`h-5 w-5 text-gray-400 transition-transform ${
             isOpen ? 'rotate-180' : ''
@@ -34,9 +34,9 @@ const FAQItem = ({ title, body1, semititle, body2, imageSrc, alt }: FAQItemProps
           isOpen ? 'max-h-screen mt-4' : 'max-h-0'
         }`}
       >
-        <p className="text-white text-sm mb-3">{body1}</p>
-        <p className="text-white font-semibold text-base mb-1">{semititle}</p>
-        <p className="text-white text-sm mb-4">{body2}</p>
+        <p className="text-white text-sm text-[16px] mb-3">{body1}</p>
+        <p className="text-white font-semibold text-[20px] text-base mb-1">{semititle}</p>
+        <p className="text-white text-[16px] text-sm mb-4">{body2}</p>
         {imageSrc && (
           <img
             src={imageSrc}
@@ -53,10 +53,10 @@ const faqs = [
   {
     title: 'AI Regulation',
     body1:
-      "Recent Issue I'm Interested In: AI opens up new possibilities, but also raises concerns about originality, authorship, and ethical boundaries—especially for artists.",
+      "AI opens up new possibilities, but also raises concerns about originality, authorship, and ethical boundaries—especially for artists. I've always been into both tech and art, and I've been thinking a lot about how to connect the two. With all the buzz around generative AI lately, there's been a lot of tension between the tech crowd and artists (they often see things really differently). ",
     semititle: 'Mission',
     body2:
-      "I've always been into both tech and art, and I've been thinking a lot about how to connect the two. With all the buzz around generative AI lately, there's been a lot of tension between the tech crowd and artists (they often see things really differently). Since I get where both sides are coming from, I'd love to be part of finding a middle ground. I want to help shape fair, thoughtful boundaries for how AI is used in creative work, so it becomes something that supports artists, not overshadows them.",
+      "Since I get where both sides are coming from, I'd love to be part of finding a middle ground. I love to discuss it with my friends. I want to help shape fair, thoughtful boundaries for how AI is used in creative work, so it becomes something that supports artists, not overshadows them. ",
     imageSrc: "/general/ai.png",
     alt: 'AI and Art'
   },
@@ -76,7 +76,7 @@ export default function FAQ() {
   return (
     <div className="w-full max-w-6xl mx-auto px-4 py-8 mt-40">
         <h1 className='flex text-center justify-center text-4xl'>
-            Mission <span className="text-[#D4FFA9] italic font-medium">Statement</span>
+            Mission  <span className="text-[#D4FFA9] italic font-medium">Statement</span>
         </h1>
       <div className="space-y-6">
         {faqs.map((faq, index) => (

@@ -98,7 +98,7 @@ const Page = () => {
       </div>
 
       {/* Section Title */}
-      <h1 className="flex-justify-center mt-25 text-white text-[50px] font-medium text-center">
+      <h1 className="flex-justify-center mt-25 text-white text-[60px] font-semibold text-center">
         Get to Know Me
       </h1>
 

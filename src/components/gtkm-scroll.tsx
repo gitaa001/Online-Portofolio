@@ -52,33 +52,33 @@ const GtKM = () => {
   return (
     <div
       ref={scrollRef}
-      className="overflow-x-auto flex snap-x snap-mandatory scroll-smooth space-x-6 cursor-grab select-none hide-scrollbar"
+      className="overflow-x-auto flex snap-x snap-mandatory scroll-smooth space-x-6 cursor-grab select-none hide-scrollbar items-end"
     >
-      <div className="snap-start shrink-0 flex items-center justify-center w-[700px]">
+      <div className="snap-start shrink-0 flex items-end justify-center w-[1159px] h-[589px]">
         <img
           src="/general/mbti.png"
-          width={700}
-          height={500}
+          width={1159}
+          height={589}
           alt="MBTI"
-          className="rounded-xl"
+          className="rounded-xl object-contain"
         />
       </div>
-      <div className="snap-start shrink-0 flex items-end justify-center w-[700px]">
+      <div className="snap-start shrink-0 flex items-end justify-center w-[1159px] h-[482px]">
         <img
           src="/general/colpersona.png"
-          width={700}
-          height={300}
+          width={1159}
+          height={482}
           alt="Color Persona"
-          className="rounded-xl"
+          className="rounded-xl object-contain"
         />
       </div>
-      <div className="snap-start shrink-0 flex items-center justify-center w-[700px]">
+      <div className="snap-start shrink-0 flex items-end justify-center w-[1328px] h-[482px]">
         <img
-          src="/general/mbti.png"
-          width={700}
-          height={500}
-          alt="MBTI Again"
-          className="rounded-xl"
+          src="/general/SWOT.png"
+          width={1328}
+          height={482}
+          alt="SWOT"
+          className="rounded-xl object-contain"
         />
       </div>
     </div>

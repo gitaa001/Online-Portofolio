@@ -1,6 +1,7 @@
 'use client'
 
 import NavBar from '@/components/nav-bar'
+import Highlight from '@/components/highlight-scroll'
 import Image from 'next/image'
 
 const Page = () => {
@@ -19,6 +20,17 @@ const Page = () => {
           height={400} 
         />
       </div>
+
+      {/* Section Title */}
+      <h1 className="my-25 justify-center text-white text-[50px] font-medium text-center">
+        Highlights
+      </h1>
+
+      {/* Highlights */}
+      <div className="flex justify-center mt-5 ml-20">
+        <Highlight />
+      </div>
+
     </div>
   )
 }
